@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 (escolhaUsuario == "Tesoura" && escolhaApp == "Papel") ||
                 (escolhaUsuario == "Papel" && escolhaApp == "Pedra")
         ) { //Usuario ganhador
-            textoResultado.setText("VOCE GANAHOU");
+            textoResultado.setText("VOCE GANHOU");
         }
         else { // EMPATE
             textoResultado.setText("EMPATE");
